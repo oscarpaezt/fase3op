@@ -119,6 +119,7 @@
 }
 
 .body_main {
+    padding-top: 5em;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -269,9 +270,9 @@ Seccion introducción para acceso a la pagina de cada interante**/
     width: 30%;
   }
   .img-fluid{
-    max-width: 70%;
-    border-radius: 5em;
-    width: 70% !important;
+    max-width: 50%;
+    border-radius: 5px;
+    width: 50% !important;
   }
 
   .memb-name {
@@ -326,10 +327,10 @@ Seccion introducción para acceso a la pagina de cada interante**/
   background: #bfc8f2;
   box-shadow:  -6px 6px 12px #99a0c2,
               6px -6px 12px #e5f0ff;
-  overflow: hidden;
+  
 }
 .carrusel .carrfon{
-  width: 200%; /*Segun las imagenes*/
+  width: 100%; /*Segun las imagenes*/
 
   display: flex;
   flex-flow: row nowrap;
@@ -337,7 +338,7 @@ Seccion introducción para acceso a la pagina de cada interante**/
   align-items: center;
   padding: 1em;
   border-radius: 8px;
-  background: #bfc8f2;
+  background: #d0d8fd;
   box-shadow:  8px 8px 16px #99a0c2,
               -8px -8px 16px #e5f0ff;
   transition: all .5s ease;
@@ -345,18 +346,18 @@ Seccion introducción para acceso a la pagina de cada interante**/
               
 }
 .carrusel .img{
-  width: calc( 100% * 2 - 2em);/*por el número de imagenes*/
+  width: 100%;/* calc( 100% * 2 - 2em); -- por el número de imagenes*/
   min-height: 7vh;
   border-radius: 8px;
-  background: #bfc8f2;
+  background: white;
   box-shadow:  -8px -8px 16px #99a0c2,
               8px 8px 16px #e5f0ff;
 }
 
 .carrfon img{
   object-fit:contain;
-  width: 680px;
-  height: 480px;
+  width: 640px;
+  
   
   
   display: block;
