@@ -11,7 +11,7 @@ const punto = document.querySelectorAll('.punto');
 punto.forEach((doPunto, i)=>{
     punto[i].addEventListener('click',()=>{
         let pos= i
-        let oper = pos * -50
+        let oper = pos * -35
         carrfon.style.transform = `translateX(${oper}%)`
         punto.forEach((doPunto,l)=>{
             punto[l].classList.remove('imgactivo')
